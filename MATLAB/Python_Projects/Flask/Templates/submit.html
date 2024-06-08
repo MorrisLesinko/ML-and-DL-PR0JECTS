@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Scores</title>
+</head>
+<body>
+    <h1>Submit Your Scores</h1>
+    <form action="{{ url_for('submit') }}" method="post">
+        <label for="Math">Math:</label>
+        <input type="text" id="Math" name="Math"><br>
+        <label for="Science">Science:</label>
+        <input type="text" id="Science" name="Science"><br>
+        <label for="C">C:</label>
+        <input type="text" id="C" name="C"><br>
+        <label for="DataScience">Data Science:</label>
+        <input type="text" id="DataScience" name="DataScience"><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
