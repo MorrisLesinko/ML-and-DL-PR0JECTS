@@ -21,7 +21,7 @@ Each consumer \( i \) (Anna \( A \) and Lihle \( L \)) aims to solve:
 \[ \max_{x} 2\ln(a + 2x) - 2x \]
 Derivative:
 \[ \frac{\partial}{\partial x} (2\ln(a + 2x) - 2x) = \frac{2}{a + 2x} \cdot 2 - 2 = 0 \]
-\[ \frac{4}{a + 2x} = 2 \]
+\[ \frac{4}{a + 2x} = 2 \]     ####
 \[ a + 2x = 2 \]
 \[ x = \frac{2 - a}{2} \]
 
